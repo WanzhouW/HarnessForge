@@ -1,6 +1,41 @@
+# 密钥与本地配置
 .env
+.env.*
+!.env.example
+
+# Python 缓存
 __pycache__/
 *.py[cod]
-*.egg-info/
+*$py.class
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 测试与覆盖率
 .pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# 构建与安装产物
+build/
+dist/
+*.egg-info/
+
+# 类型检查和代码检查缓存
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# IDE 与操作系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 项目运行产物
 runs/
